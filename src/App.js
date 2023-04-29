@@ -17,15 +17,15 @@ import { LoginPage } from "./pages/LoginPage";
 const MyLazyComponent = lazy(() => import("./pages/MissionPage"));
 
 const App = () => {
-  // Now I will construct object of location. I can use it in API, becouse always when some user will change a page (location), I know this and can react on this. Analytics can tell us that some of functions/modals/pages are used more often than other, so we can for example change order of them, delete something or change it's name.
-  const location = useLocation();
+  // // Now I will construct object of location. I can use it in API, becouse always when some user will change a page (location), I know this and can react on this. Analytics can tell us that some of functions/modals/pages are used more often than other, so we can for example change order of them, delete something or change it's name.
+  // const location = useLocation();
 
-  // console.log("Location in App: ", { location });
+  // // console.log("Location in App: ", { location });
 
-  useEffect(() => {
-    // Analytics.send(location)
-    // console.log("Location in App: ", { location });
-  }, [location]);
+  // useEffect(() => {
+  //   // Analytics.send(location)
+  //   // console.log("Location in App: ", { location });
+  // }, [location]);
 
   return (
     <div>
